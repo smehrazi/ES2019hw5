@@ -4,7 +4,8 @@ author: "shirin mehrazi"
 date: "3/5/2019"
 output: html_document
 ---
-
+Sample function takes a sample of the specified size from the elements of x using either with or without replacement.
+The following command is for Random Sampling And Permutations. First it shows a random permutation by the sample function. Then it asks to replace and resample. Then it applies 100 Bernoulli trials with replacement with 0 and 1. Also it gave some hints and common mistakes that you want a sampling with length 1 but if you write it in a way that is mentioned in line 26, you will get a sample of length 10, so it is better to use resample().
 ```{r}
 # NOT RUN {
 x <- 1:12
